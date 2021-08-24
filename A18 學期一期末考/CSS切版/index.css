@@ -1,0 +1,47 @@
+/* 初始值 */
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  /* 指定內容寬度 */
+  min-width: 820px;
+  /* 內容對齊方式 */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* 背景顏色跟自型 */
+  background-color: #78bdca;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  /* 設定選單對其方式 */
+  display: flex;
+  justify-content: center;
+  /* 去除li */
+  list-style-type: none;
+}
+
+a {
+  /* 設定字的外框 */
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+
+  /* 設定字的大小跟粗細 */
+  font-size: 20px;
+  font-weight: 100;
+
+  /* 設定字的顏色跟去除底線 */
+  color: #ffffff;
+  text-decoration: none;
+
+  /* 設定字與外框的距離跟大小 */
+  padding: 6px 30px;
+  margin: 6px;
+}
+
+span {
+  font-size: 20px;
+  color: #ffffff;
+}
