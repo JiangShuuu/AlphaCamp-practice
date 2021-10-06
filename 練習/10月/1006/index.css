@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 80%;
+}
+.people-cards {
+  max-width: 90%;
+}
+
+.card {
+  width: 14rem;
+}
