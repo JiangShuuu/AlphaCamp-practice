@@ -1,0 +1,51 @@
+.bigBox {
+  display: flex;
+  justify-content: space-around;
+
+/*   border: 1px solid red; */
+}
+
+.RGB-Box {
+/*   border: 1px solid red; */
+}
+
+.Color-Box {
+/*   border: 1px solid blue; */
+  margin: 2px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.square {
+  height: 30px;
+  width: 30px;
+  margin: 0 0 0 20px;
+  background-color: red;
+}
+
+#G {
+  background-color: green
+}
+
+#B {
+  background-color: blue
+}
+
+.input {
+  margin: 0 0 0 20px
+}
+
+.btn {
+  margin: 10px 0;
+}
+
+#hex-square {
+  height: 80px;
+  width: 80px;
+  margin: 20px 0 0 0;
+  border: 1px solid black;
+}
+
+.font {
+  width: 15px;
+}
